@@ -1,1 +1,1 @@
-worker: java -jar target/com.example.abu-0.0.1-SNAPSHOT.jar com.example.abu.abu_zver.App
+web: java $JAVA_OPTS -cp build/staging:build/staging/* com.example.abu.abu_zver.App
